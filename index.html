@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Процессоры.ru</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="logo-section">
+    <img src="https://i.pinimg.com/736x/3f/7b/17/3f7b1756178f37b0d53301a05628565a.jpg" 
+         draggable="false" alt="Logo" class="main-logo">
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <nav id="menu1">
+        <ul>
+          <li><a href="#m1">ВСЕ ПОСТЫ</a></li>
+          <li><a href="#m2">ПОДБОРКИ</a></li>
+          <li>
+            <a href="#m3">ТЕМЫ</a>
+            <ul>
+              <li><a href="#m3_1">Лучшие 2026</a></li>
+              <li><a href="#m3_2">Советы</a></li>
+              <li><a href="#m3_3">Intel</a></li>
+              <li><a href="#m3_4">AMD</a></li>
+              <li><a href="#m3_5">Apple</a></li>
+            </ul>
+          </li>
+          <li><a href="#m4">СОВЕТЫ</a></li>
+          <li><a href="#m5">АККАУНТ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="carousel-section">
+    <div class="carousel" id="banner-carousel">
+      <div class="carousel-track">
+        <div class="carousel-slide active" style="background: #e3f2fd;">
+          <div class="banner-content">
+            <h2>Новинки этого года</h2>
+            <p>Самые свежие релизы на рынке</p>
+            <a href="#m1" class="btn-banner">Смотреть</a>
+          </div>
+        </div>
+        <div class="carousel-slide" style="background: #e8f5e9;">
+          <div class="banner-content">
+            <h2>Для игр</h2>
+            <p>Выбираем лучший вариант для гейминга</p>
+            <a href="#m2" class="btn-banner">Подробнее</a>
+          </div>
+        </div>
+        <div class="carousel-slide" style="background: #fff3e0;">
+          <div class="banner-content">
+            <h2>Для работы</h2>
+            <p>Мощность для профессиональных задач</p>
+            <a href="#m2" class="btn-banner">Узнать</a>
+          </div>
+        </div>
+        <div class="carousel-slide" style="background: #fce4ec;">
+          <div class="banner-content">
+            <h2>Охлаждение</h2>
+            <p>Как не допустить перегрева</p>
+            <a href="#m4" class="btn-banner">Читать</a>
+          </div>
+        </div>
+        <div class="carousel-slide" style="background: #f3e5f5;">
+          <div class="banner-content">
+            <h2>Сравнения</h2>
+            <p>Что выбрать в 2026 году</p>
+            <a href="#m3" class="btn-banner">Сравнить</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-btn prev" id="prev-btn">‹</button>
+      <button class="carousel-btn next" id="next-btn">›</button>
+      <div class="carousel-dots" id="carousel-dots"></div>
+    </div>
+  </section>
+
+  <main>
+    <div class="pos">
+      
+      <div class="post">
+        <img height="230" src="https://avatars.mds.yandex.net/get-mpic/4220209/2a000001950718652b14eda07a187eb46831/orig" alt="AMD Ryzen 7 9800X">
+        <div>
+          <h3>AMD Ryzen 7 9800X</h3>
+          <p>8-ядерный процессор с 16 потоками для сокета AM5. Технология 3D V-Cache второго поколения увеличивает кэш и улучшает производительность в играх.</p>
+          <a href="#" class="read-more">Подробнее</a>
+        </div>
+      </div>
+
+      <div class="video-wrapper">
+        <iframe width="100%" height="405" src="https://rutube.ru/play/embed/c732870a548e821c8df1de759b0a5917/?skinColor=e53935" style="border: none;" allow="clipboard-write; autoplay" allowfullscreen></iframe>
+      </div>
+
+      <h3>Комментарии (10):</h3>
+      <div class="comment">
+        <h4 class="author">Михаил</h4>
+        <h5 class="date">19:30 20.02.2220</h5>
+        Норм вариант купил в днс устраивает
+      </div>
+      <div class="comment" id="sub-comment">
+        <h4 class="author">Ryzen_Guy</h4>
+        <h5 class="date">19:35 20.02.2220</h5>
+        С озона дешевле , и галочка оригинал есть, ну жаль гарантии нет
+      </div>
+      <div class="comment">
+        <h4 class="author">Gamer228</h4>
+        <h5 class="date">10:15 21.02.2220</h5>
+        В киберпанке на ультра настройках выдает 120+ фпс, доволен!
+      </div>
+      <div class="comment">
+        <h4 class="author">CompMaster</h4>
+        <h5 class="date">14:22 21.02.2220</h5>
+        Отличный камень для сборки. Только охлаждение возьмите помощнее
+      </div>
+      <div class="comment">
+        <h4 class="author">Алексей_77</h4>
+        <h5 class="date">09:45 22.02.2220</h5>
+        Подскажите, какая материнская плата лучше подойдет под этот проц?
+      </div>
+      <div class="comment">
+        <h4 class="author">Dmitry_Pro</h4>
+        <h5 class="date">11:30 22.02.2220</h5>
+        Для 9800X бери B650 или X670, разницы почти нет
+      </div>
+      <div class="comment">
+        <h4 class="author">Katya_Proger</h4>
+        <h5 class="date">16:20 23.02.2220</h5>
+        Взяла для работы в Blender, рендерит сцены быстро
+      </div>
+      <div class="comment">
+        <h4 class="author">Den4ik</h4>
+        <h5 class="date">21:10 23.02.2220</h5>
+        А кто-нибудь пробовал разгонять? Какие частоты?
+      </div>
+      <div class="comment">
+        <h4 class="author">Overclocker_86</h4>
+        <h5 class="date">08:30 24.02.2220</h5>
+        Разогнал до 5.3 ГГц на всех ядрах, стабильно
+      </div>
+      <div class="comment">
+        <h4 class="author">Nikita_S</h4>
+        <h5 class="date">12:45 24.02.2220</h5>
+        Лучший выбор в своем ценовом сегменте
+      </div>
+
+      <div class="post">
+        <img height="280" src="https://static.onlinetrade.ru/img/users_images/502559/b/protsessor_intel_core_i9_14900k_lga1700_oem_1749654381_1.jpg" alt="Intel Core i9-14900K">
+        <div>
+          <h3>Intel Core i9-14900K</h3>
+          <p>Флагман 14-го поколения на архитектуре Raptor Lake-R. Для игровых ПК, рабочих станций, 3D-моделирования и видеомонтажа.</p>
+          <a href="#" class="read-more">Подробнее</a>
+        </div>
+      </div>
+
+      <h3>Комментарии (10):</h3>
+      <div class="comment">
+        <h4 class="author">IntelFan</h4>
+        <h5 class="date">18:30 15.02.2220</h5>
+        Топовый проц, но греется как печка! Нужна хорошая водянка
+      </div>
+      <div class="comment">
+        <h4 class="author">Sergey_V</h4>
+        <h5 class="date">20:15 15.02.2220</h5>
+        Для монтажа видео в Premiere Pro просто бомба
+      </div>
+      <div class="comment">
+        <h4 class="author">Maxim_G</h4>
+        <h5 class="date">11:40 16.02.2220</h5>
+        Скажите, а с материнкой Z790 нормально дружит?
+      </div>
+      <div class="comment">
+        <h4 class="author">TechSupport</h4>
+        <h5 class="date">13:20 16.02.2220</h5>
+        Да, главное обнови BIOS перед установкой
+      </div>
+      <div class="comment">
+        <h4 class="author">Vladimir_88</h4>
+        <h5 class="date">09:10 17.02.2220</h5>
+        Взял для игр на 4К, в паре с RTX 4090 выдает максимум
+      </div>
+      <div class="comment">
+        <h4 class="author">Elena_Design</h4>
+        <h5 class="date">15:45 17.02.2220</h5>
+        В After Effects рендерит тяжелые проекты быстро
+      </div>
+      <div class="comment">
+        <h4 class="author">PcBuilder</h4>
+        <h5 class="date">22:30 18.02.2220</h5>
+        У кого какой кулер стоит? У меня NH-D15, в играх 70-75 градусов
+      </div>
+      <div class="comment">
+        <h4 class="author">WaterCooler</h4>
+        <h5 class="date">10:00 19.02.2220</h5>
+        Поставь Arctic Liquid Freezer III 360, температуры упадут
+      </div>
+      <div class="comment">
+        <h4 class="author">Andrey_Pro</h4>
+        <h5 class="date">17:30 19.02.2220</h5>
+        Энергопотребление конское, но если не жалко электричества - берите
+      </div>
+      <div class="comment">
+        <h4 class="author">Newbie_2026</h4>
+        <h5 class="date">08:20 20.02.2220</h5>
+        Первый пк собрал на этом процессоре, все работает!
+      </div>
+
+      <div class="post">
+        <img height="270" src="https://trashbox.ru/ifiles2/2073982_2af2e4_image.png_minx2.jpg/amd-ryzen-9-9950x3d-obzor-43.webp" alt="AMD Ryzen 9 9950X3D">
+        <div>
+          <h3>AMD Ryzen 9 9950X3D</h3>
+          <p>16-ядерный процессор с 128 МБ кэша L3. Два в одном: для игр — благодаря кэшу, для работы — благодаря 32 потокам. Требует мощного охлаждения.</p>
+          <a href="#" class="read-more">Подробнее</a>
+        </div>
+      </div>
+
+      <h3>Комментарии (10):</h3>
+      <div class="comment">
+        <h4 class="author">AMDForever</h4>
+        <h5 class="date">12:10 10.03.2220</h5>
+        Это просто зверь, а не процессор!
+      </div>
+      <div class="comment">
+        <h4 class="author">CoolerMaster</h4>
+        <h5 class="date">14:25 10.03.2220</h5>
+        Ребята, не экономьте на охлаждении! Без хорошей водянки он будет душиться
+      </div>
+      <div class="comment">
+        <h4 class="author">TestLab</h4>
+        <h5 class="date">18:40 11.03.2220</h5>
+        Тестировали в Cinebench R23 - набрал 42000 баллов
+      </div>
+      <div class="comment">
+        <h4 class="author">Dmitry_Streamer</h4>
+        <h5 class="date">09:55 12.03.2220</h5>
+        Стримлю на этом процессоре, в OBS нет просадок
+      </div>
+      <div class="comment">
+        <h4 class="author">Alex_Bench</h4>
+        <h5 class="date">13:15 12.03.2220</h5>
+        Кто-то сравнивал с Intel 14900k? Что лучше?
+      </div>
+      <div class="comment">
+        <h4 class="author">CompExpert</h4>
+        <h5 class="date">16:30 13.03.2220</h5>
+        Для стримов 9950X3D вне конкуренции
+      </div>
+      <div class="comment">
+        <h4 class="author">Kirill_13</h4>
+        <h5 class="date">11:20 14.03.2220</h5>
+        А на какую материнку лучше ставить?
+      </div>
+      <div class="comment">
+        <h4 class="author">TechGuru</h4>
+        <h5 class="date">15:45 14.03.2220</h5>
+        AM5. Советую X670E или B650E
+      </div>
+      <div class="comment">
+        <h4 class="author">Ivan_PC</h4>
+        <h5 class="date">19:00 15.03.2220</h5>
+        Купил, поставил Arctic Freezer 360, температуры в играх 65-70
+      </div>
+      <div class="comment">
+        <h4 class="author">Roman_Pro</h4>
+        <h5 class="date">10:30 16.03.2220</h5>
+        Дорогой, но он того стоит. Лучший выбор на сегодня
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <img src="https://i.pinimg.com/736x/3f/7b/17/3f7b1756178f37b0d53301a05628565a.jpg" alt="Logo" class="footer-logo">
+        <div class="footer-about">
+          <h4>О нас</h4>
+          <p>Помогаем выбирать, обсуждать и покупать процессоры. Совет от реальных людей.</p>
+        </div>
+      </div>
+
+      <div class="footer-menu-block">
+        <h4>Меню сайта</h4>
+        <ul class="footer-menu">
+          <li><a href="#m1">Все посты</a></li>
+          <li>
+            <a href="#m2">Подборки</a>
+            <ul class="footer-submenu">
+              <li><a href="#m2_1">Для игр</a></li>
+              <li><a href="#m2_2">Для работы</a></li>
+              <li><a href="#m2_3">Бюджетные</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#m3">Темы</a>
+            <ul class="footer-submenu">
+              <li><a href="#m3_3">Intel</a></li>
+              <li><a href="#m3_4">AMD</a></li>
+              <li><a href="#m3_5">Apple</a></li>
+            </ul>
+          </li>
+          <li><a href="#m4">Советы</a></li>
+          <li><a href="#m5">Контакты</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Свяжитесь с нами</h4>
+        <p>Email: <a href="mailto:contact@processory.ru">contact@processory.ru</a></p>
+      </div>
+
+      <div class="footer-bottom">
+        <small>Copyright (c) 2026 Процессоры.ru</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
